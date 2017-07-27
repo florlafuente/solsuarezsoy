@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	}
+
+a, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color:#F5AEA9;
+	text-decoration: none;
+}
+blockquote{
+	font-size: 12px;
+	font-style: italic;
+}
+.boton-modal{
+	border-color: #FFF;
+}
+.container {
+	width: 80%;
+	padding: 0;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.enviar, .enviar:hover {
+	border-color: #FFF;
+}
+footer {
+	position: relative;
+ 	bottom: 0;
+	font-size: 10px;
+	padding-top: 10px;
+	width: 100%;
+}
+.heart{
+	color: #F58D85;
+}
+.mensaje{
+	display: none;
+}
+#menu {
+	margin-top: 20px;
+}
+#social-media {
+	margin-top: 20px;
+}
+#social-media ul li a {
+	color: #000;
+	font-size: 20px;
+	
+}
+
+.grid {
+	width: 100%;
+}
+
+.grid-item { 
+	width: 200px;
+	margin-bottom:10px;
+
+}
+.grid-item--width2 { width: 400px; }
+
+.modal-body img{
+	max-height: 500px;
+}
+.roll {
+	
+	height: 167px;
+	position: absolute;
+    text-align: center;
+    line-height: 153px;
+	width: 223px;
+	z-index: 10;	
+}
+  
+.roll:before {
+    
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Charset -->
+    <meta charset="utf-8">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Bootstrap Stylesheet-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Font Awesome Stylesheet-->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css">
+      <!-- Own Stylesheet -->
+      <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Sol Suárez Soy</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="col-md-6 col-xs-12">
+        <a href="#">
+        <img src="img/header.PNG" alt="Sol Suarez Soy" width="300px" class="col-md-6 col-xs-12">
+        </a>
+      </header><!-- End Header -->
+      <nav class="col-md-6 col-xs-12" id="menu">
+        <div class="row">
+          <a href="html/about-me.html">
+          <img src="img/about-me.PNG" alt="Sobre mí" class="col-md-2 col-xs-4 navimagen" data-img="about-me">
+          </a>
+          <a href="html/ceramica.html">
+          <img src="img/ceramica.PNG" alt="Cerámica" class="col-md-2 col-xs-4 navimagen" data-img="ceramica">
+          </a>
+          <a href="html/dibujo.html">
+          <img src="img/dibujo.PNG" alt="Dibujo" class="col-md-2 col-xs-4 navimagen" data-img="dibujo">
+          </a>
+          <a href="html/fotografia.html">
+          <img src="img/fotografia.png" alt="Fotografía" class="col-md-2 col-xs-4 navimagen" data-img="fotografia">
+          </a>
+          <a href="html/textil.html">
+          <img src="img/textil.png" alt="Textil" class="col-md-2 col-xs-4 navimagen" data-img="textil">
+          </a>
+          <a href="html/muestras.html">
+          <img src="img/muestras.png" alt="Muestras" class="col-md-2  col-xs-4 navimagen" data-img="muestras">
+          </a>
+        </div>
+      </nav><!-- End Nav-->
+    </div><!-- End Row-->
+  </div><!--End Container Fluid-->
+
+  <div class="container">
+    <div class="row">
+      <img src="img/dibujo/dibujo_03.jpg" class="col-md-6 col-md-offset-3">
+    </div>
+  </div>
+    
+
+  
+      
+  <div class="container-fluid">
+    <footer class="footer row">
+      <nav id="social-media" class="col-md-4">
+        <ul class="list-unstyled list-inline text-center">
+          <li><a href="http://www.facebook.com/solsuarezlobasoy/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="http://www.instagram.com/solsuarezsoy/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:solsuarezsoy@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul><!--End Unordered List-->
+        <p class="text-center">Hecho con <span class="heart"><i class="fa fa-heart" aria-hidden="true"></i></span> por Flor Lafuente</p>
+      </nav><!--End Nav Social Media -->
+      <div class="col-md-4">
+        <img src="img/header.PNG" alt="Sol Suarez Soy" class="center-block" width="150px">
+      </div>
+      <div class="col-md-3 text-justify" id="creativecommons">
+        <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 3.0 Unported. </a><br>Permissions beyond the scope of this license may be available at https://solsuarezsoy.wordpress.com/.
+        </p>
+      </div><!-- End Creative Commons -->
+    </footer><!-- End Footer -->
+  </div><!-- End Container Fluid -->
+  
+  <!--Modal-->
+  <div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h1>Formulario de Contacto</h1>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <div class="alert alert-success mensaje" role="alert" id="exito">
+                    <strong>Muchas gracias!</strong> El formulario fue enviado exitosamente.
+                  </div>
+                  <div class="alert alert-danger mensaje" role="alert" id="error">
+                    <strong>Cuidado!</strong> Por favor, revisá los campos ingresados.
+                  </div>
+                <form action="" method="post" name="formcontacto" class="row" id="formulario">
+                  
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="nombre">Nombre</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" 
+                        name="nombre" placeholder="Nombre" id="nombre"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="email">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" 
+                        name="email" placeholder="Email" id="email"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label"  for="comentarios">Comentarios</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" type="text" placeholder="Comentarios" name="comentarios" rows="5" id="comment"></textarea>
+                    </div>
+                  </div>
+                </form>    
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default enviar"
+                        data-dismiss="modal" id="cerrar">
+                            Cerrar
+                </button>
+                <button type="submit" class="btn btn-default" id="enviar">Enviar</button>
+            </div>
+        </div>
+      </div>
+    </div><!--End Modal-->
+
+  
+    <!-- Jquery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Images loaded JS -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- Isotope Js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--Packery JS -->
+    <script src="js/packery-mode.pkgd.min.js"></script>
+    <!--Own JS -->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
+
